@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Picgram</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="hint_username">User Name</string>
 </resources>
