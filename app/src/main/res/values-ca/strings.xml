@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_username">Nom d\'usuari</string>
+    <string name="hint_password">Contrasenya</string>
+    <string name="text_button_login">Entrar</string>
+    <string name="dont_have_account">No tens un compte?, </string>
+    <string name="create_here">crea\'n un aquí</string>
+    <string name="hint_email">Correu</string>
+    <string name="hint_name">Nom</string>
+    <string name="hint_user">Usuari</string>
+    <string name="hint_confirm_password">Confirmar contrasenya</string>
+    <string name="text_button_createaccount">Uneix-te</string>
+    <string name="toolbar_title_createaccount">Crear Compte</string>
+    <string name="first_word_card">Fa</string>
+    <string name="timecard_card">4 dies</string>
+    <string name="likenumber_card">10 M\'agrada</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Inici</string>
+    <string name="tab_profile">Jo</string>
+    <string name="toolbar_title_home">Inici</string>
+</resources>
