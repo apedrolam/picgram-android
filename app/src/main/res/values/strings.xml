@@ -12,4 +12,15 @@
     <string name="hint_confirm_password">Confirm password</string>
     <string name="text_button_createaccount">Join us</string>
     <string name="toolbar_title_createaccount">Create Account</string>
+    <string name="username_card">Albert Pedrola</string>
+    <string name="first_word_card">ago</string>
+    <string name="timecard_card">4 days</string>
+    <string name="likenumber_card">10 Likes</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toolbar_title_home">Home</string>
 </resources>
