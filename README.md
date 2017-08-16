@@ -1,1 +1,1 @@
-Picgram is like a intagram app. Android Application
+Picgram is like a instagram app. Android Application
