@@ -50,9 +50,9 @@ public class HomeFragment extends Fragment {
 
     public ArrayList<Picture> buildPictures() {
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "Albert Pedrola", "4 days", "3"));
-        pictures.add(new Picture("http://www.enjoyart.com/library/landscapes/tuscanlandscapes/large/Tuscan-Beidge--by-Art-Fronckowiak-.jpg", "Maria Rojas", "6 days", "25"));
-        pictures.add(new Picture("http://www.educationquizzes.com/library/KS3-Geography/river-1-1.jpg", "Albert Pedrola", "8 days", "14"));
+        pictures.add(new Picture("http://www.novalandtours.com/images/guide/guilin.jpg", "Albert Pedrola", "4 days", "3 Likes"));
+        pictures.add(new Picture("http://www.enjoyart.com/library/landscapes/tuscanlandscapes/large/Tuscan-Beidge--by-Art-Fronckowiak-.jpg", "Maria Rojas", "6 days", "25 Likes"));
+        pictures.add(new Picture("http://www.educationquizzes.com/library/KS3-Geography/river-1-1.jpg", "Albert Pedrola", "8 days", "14 Likes"));
         return pictures;
     }
 

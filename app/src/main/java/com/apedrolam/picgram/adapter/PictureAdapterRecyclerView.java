@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.apedrolam.picgram.R;
 import com.apedrolam.picgram.model.Picture;
+import com.squareup.picasso.Picasso;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -43,6 +44,7 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.usernameCard.setText(picture.getUserName());
         holder.timeCard.setText(picture.getTime());
         holder.likeNumberCard.setText(picture.getLike_number());
+        Picasso.with(activiity).load(picture.getPicture()).into(holder.pictureCard);
     }
 
     @Override
