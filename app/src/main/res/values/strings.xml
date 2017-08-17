@@ -23,4 +23,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">In progress....</string>
     <string name="toolbar_title_home">Home</string>
+    <string name="secondword_detail">Likes</string>
+    <string name="titleimage_detail">\"Nice day in the beach\"</string>
+    <string name="lorem">Duis vitae orci ex. Curabitur vitae imperdiet eros. Sed non nisi in orci molestie venenatis. Maecenas sit amet vehicula augue, id ornare elit. Donec venenatis, augue consectetur tempus facilisis, ante massa suscipit lacus, id tristique metus lacus eu dui. Nam ut dui id justo dapibus placerat eget eu eros.</string>
 </resources>
