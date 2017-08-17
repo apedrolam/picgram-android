@@ -1,6 +1,7 @@
 package com.apedrolam.picgram.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.apedrolam.picgram.R;
 import com.apedrolam.picgram.model.Picture;
+import com.apedrolam.picgram.view.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.lang.reflect.Array;
@@ -24,12 +26,12 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
 
     private ArrayList<Picture> pictures;
     private int resource;
-    private Activity activiity;
+    private Activity activity;
 
-    public PictureAdapterRecyclerView(ArrayList<Picture> pictures, int resource, Activity activiity) {
+    public PictureAdapterRecyclerView(ArrayList<Picture> pictures, int resource, Activity activity) {
         this.pictures = pictures;
         this.resource = resource;
-        this.activiity = activiity;
+        this.activity = activity;
     }
 
     @Override
@@ -44,7 +46,15 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         holder.usernameCard.setText(picture.getUserName());
         holder.timeCard.setText(picture.getTime());
         holder.likeNumberCard.setText(picture.getLike_number());
-        Picasso.with(activiity).load(picture.getPicture()).into(holder.pictureCard);
+        Picasso.with(activity).load(picture.getPicture()).into(holder.pictureCard);
+
+        holder.pictureCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
     }
 
     @Override
