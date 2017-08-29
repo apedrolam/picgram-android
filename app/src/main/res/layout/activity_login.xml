@@ -25,7 +25,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:background="@drawable/picgram"
-                android:contentDescription="Picgram Logo" />
+                android:contentDescription="Picgram Logo"
+                android:onClick="goWeb"/>
 
         </RelativeLayout>
 
