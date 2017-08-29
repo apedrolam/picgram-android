@@ -5,13 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.apedrolam.picgram.view.PictureDetailActivity">
+    tools:context="com.apedrolam.picgram.view.PictureDetailActivity"
+    android:fitsSystemWindows="true">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/appbar_layout_height"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
         
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbar"
@@ -26,7 +28,9 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:background="@drawable/image"
-                app:layout_collapseMode="parallax" />
+                app:layout_collapseMode="parallax"
+                android:fitsSystemWindows="true"
+                android:transitionName="@string/transitionname_picture"/>
 
 
             <android.support.v7.widget.Toolbar
