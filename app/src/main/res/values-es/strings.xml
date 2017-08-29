@@ -19,4 +19,5 @@
     <string name="tab_profile">Yo</string>
     <string name="toolbar_title_home">Inicio</string>
     <string name="secondword_detail">Me gusta</string>
+    <string name="searchhinttext">Buscar fotos</string>
 </resources>

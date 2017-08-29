@@ -14,6 +14,10 @@ import com.roughike.bottombar.OnTabSelectListener;
 
 public class ContainerActivity extends AppCompatActivity {
 
+    HomeFragment homeFragment;
+    ProfileFragment profileFragment;
+    SearchFragment searchFragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
